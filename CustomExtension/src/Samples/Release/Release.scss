@@ -1,0 +1,123 @@
+@import "node_modules/azure-devops-ui/Core/_platformCommon.scss";
+body {
+    font-family: Calibri;
+}
+.sample-form-section {
+    margin-top: 20px;
+}
+
+.sample-release-id-input {
+    width: 250px;
+    margin-right: 10px;
+}
+
+.sample-release-type-picker {
+    width: 250px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.sample-release-button {
+    align-self: flex-end;
+    width: 80px;
+}
+.bolt-card-content {
+    overflow: visible !important;
+}
+h3 {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-bottom: solid 3px slategray;
+    font-weight: bold;
+    margin: 5px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    height: 50px;
+}
+.definition-content {
+    padding: 5px;
+}
+.row {
+    width: 100%;
+    margin: 1px;
+}
+.btn {
+    margin: 0px 1px;
+}
+.btn-sm {
+    font-size: 12px !important;
+    padding: 1px 7px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 1.2rem;
+}
+.btn-light {
+    color: #212529;
+    background-color: #f2f2f2 !important;
+    border-color: silver !important;
+}
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: -5px 5px;
+}
+.table-bordered thead th,
+.table-bordered thead td {
+    border-bottom-width: 2px;
+    background-color: #dee2e6;
+    font-weight: bold;
+}
+.card-body {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    .card-text {
+        font-size: 13px !important;
+    }
+}
+.list-group {
+    width: 100% !important;
+    margin: 2px 0px;
+}
+.list-group-item {
+    padding: 1px 5px;
+    line-height: 25px;
+    border: 0px !important;
+    font-size: 13px !important;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.list-group-item:last-child {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.list-group-item.list-group-item-primary {
+    font-weight: bold;
+}
+h5,
+.h5 {
+    font-size: 36px;
+}
+.workItems {
+    .list-group {
+        border-left: solid 5px #565656;
+    }
+    .list-group-item.list-group-item-light {
+        padding: 2px 0px;
+    }
+    .list-group-item.list-group-item-light::before {
+        display: inline-block;
+        content: "";
+        border: solid 2px #565656;
+        width: 20px;
+        margin-top: 10px;
+        margin-right: 5px;
+        transform: translateY(-3px);
+    }
+}
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
